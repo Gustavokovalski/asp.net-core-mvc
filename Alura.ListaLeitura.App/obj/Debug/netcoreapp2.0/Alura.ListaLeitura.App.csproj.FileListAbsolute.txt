@@ -1,0 +1,12 @@
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Repositorio\livros.csv
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.deps.json
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.json
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.runtimeconfig.dev.json
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csprojAssemblyReference.cache
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.csproj.CoreCompileInputs.cache
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfoInputs.cache
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.AssemblyInfo.cs
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
+\\tcprofiles\usersprofiles$\TC824771\Documents\git\asp.net-core-mvc\asp.net-core-mvc\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb

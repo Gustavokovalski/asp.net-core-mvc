@@ -1,0 +1,14 @@
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\bin\Debug\netcoreapp2.1\web.deps.json
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\bin\Debug\netcoreapp2.1\web.runtimeconfig.json
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\bin\Debug\netcoreapp2.1\web.runtimeconfig.dev.json
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\bin\Debug\netcoreapp2.1\web.dll
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\bin\Debug\netcoreapp2.1\web.pdb
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.csprojAssemblyReference.cache
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.csproj.CoreCompileInputs.cache
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.RazorAssemblyInfo.cache
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.RazorAssemblyInfo.cs
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.AssemblyInfoInputs.cache
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.AssemblyInfo.cs
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.RazorTargetAssemblyInfo.cache
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.dll
+C:\Users\gsaporiti\Desktop\git\asp.net-core-mvc\asp.net-core-mvc\web\obj\Debug\netcoreapp2.1\web.pdb

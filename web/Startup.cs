@@ -23,12 +23,20 @@ namespace web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
+
+                var livros = new List<Livro>();
+                livros.Add(new Livro("001", "Quem mexeu no meu teste", 12.99m));
+                livros.Add(new Livro("002", "Fique rico com C#", 22.99m));
+                livros.Add(new Livro("003", "Quem quer doce", 1.99m));
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                foreach (var livro in livros)
+                {
+                    await context.Response.WriteAsync($"{livro.Codigo}{livro.Nome}{livro.Preco}\r\n");
+                }
             });
+            }
         }
     }
 }

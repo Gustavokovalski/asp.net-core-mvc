@@ -28,6 +28,7 @@ namespace CasaDoCodigo
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
+
             {
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
@@ -43,7 +44,7 @@ namespace CasaDoCodigo
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Pedido}/{action=Carrossel}/{id?}");
             });
         }
     }

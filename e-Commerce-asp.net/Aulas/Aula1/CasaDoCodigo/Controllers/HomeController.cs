@@ -17,7 +17,7 @@ namespace CasaDoCodigo.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sua página de contato.";
 
             return View();
         }

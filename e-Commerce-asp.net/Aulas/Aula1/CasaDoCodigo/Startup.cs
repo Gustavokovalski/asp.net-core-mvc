@@ -27,8 +27,7 @@ namespace CasaDoCodigo
             string connectionString = Configuration.GetConnectionString("Default");
 
             services.AddDbContext<ApplicationContext>(options => 
-                options.UseSqlServer(connectionString)
-            );
+               options.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

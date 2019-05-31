@@ -27,6 +27,7 @@ namespace CasaDoCodigo.Repositories
             if (itemPedidoDB != null)
             {
                 itemPedidoDB.AtualizaQuantidade(itemPedido.Quantidade);
+                contexto.SaveChanges();
             }
         }
     }

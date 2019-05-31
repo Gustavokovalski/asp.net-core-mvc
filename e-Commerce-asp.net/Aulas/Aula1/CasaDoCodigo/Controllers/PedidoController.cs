@@ -54,9 +54,9 @@ namespace CasaDoCodigo.Controllers
         }
                                         
         [HttpPost]                   
-        public void UpdateQuantidade([FromBody]ItemPedido itemPedido) // [FromBody] => indica que vem do corpo da requisição
+        public UpdateQuantidadeResponse([FromBody]ItemPedido itemPedido) // [FromBody] => indica que vem do corpo da requisição
         {
-            itemPedidoRepository.UpDateQuantidade(itemPedido);
+            return pedidoRepository.UpdateQuantidade(itemPedido);
         }
     }
 }

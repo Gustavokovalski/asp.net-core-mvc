@@ -54,6 +54,7 @@ namespace CasaDoCodigo.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken] //anota a action que tem que ser protegida !
         public IActionResult Resumo(Cadastro cadastro)
         {
             if (ModelState.IsValid)
@@ -63,7 +64,8 @@ namespace CasaDoCodigo.Controllers
             return RedirectToAction("Cadastro");
         }
                                         
-        [HttpPost]                   
+        [HttpPost] 
+        [ValidateAntiForgeryToken]
         public UpdateQuantidadeResponse UpdateQuantidade([FromBody]ItemPedido itemPedido) // [FromBody] => indica que vem do corpo da requisição
         {
             return pedidoRepository.UpdateQuantidade(itemPedido);

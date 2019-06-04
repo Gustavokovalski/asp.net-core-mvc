@@ -6,7 +6,7 @@ class Carrinho {
         this.postQuantidade(data);
     }
 
-    clickIDecremento(btn) {
+    clickDecremento(btn) {
         let data = this.getData(btn);
         data.Quantidade--;
         this.postQuantidade(data);

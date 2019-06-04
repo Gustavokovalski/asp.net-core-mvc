@@ -24,7 +24,7 @@ class Carrinho {
 
         var data = {
             Id: itemId,
-            Quantidade: novaQtde,
+            Quantidade = novaQtde,
         };
     }
 

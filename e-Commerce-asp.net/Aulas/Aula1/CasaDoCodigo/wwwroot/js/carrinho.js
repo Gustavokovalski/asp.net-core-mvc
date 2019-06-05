@@ -1,5 +1,4 @@
-﻿
-class Carrinho {
+﻿class Carrinho {
     clickIncremento(button) {
         let data = this.getData(button);
         data.Quantidade++;
@@ -18,13 +17,13 @@ class Carrinho {
     }
 
     getData(elemento) {
-        var linhaDoItem = $(elemento).parents('[item-id]')
-        var itemId = $(linhaDoItem).attr("item-id");
+        var linhaDoItem = $(elemento).parents('[item-id]');
+        var itemId = $(linhaDoItem).attr('item-id');
         var novaQuantidade = $(linhaDoItem).find('input').val();
 
         return {
             Id: itemId,
-            Quantidade: novaQuantidade,
+            Quantidade: novaQuantidade
         };
     }
 
@@ -35,11 +34,12 @@ class Carrinho {
         let headers = {};
         headers['RequestVerificationToken'] = token;
 
+        debugger;
         $.ajax({
             url: '/pedido/updatequantidade',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify(data), 
+            data: JSON.stringify(data),
             headers: headers
         }).done(function (response) {
             let itemPedido = response.itemPedido;
@@ -62,3 +62,6 @@ var carrinho = new Carrinho();
 Number.prototype.duasCasas = function () {
     return this.toFixed(2).replace('.', ',');
 }
+
+
+

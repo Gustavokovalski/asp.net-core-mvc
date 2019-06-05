@@ -6,7 +6,7 @@ class Carrinho {
         this.postQuantidade(data);
     }
 
-    clickIDecremento(btn) {
+    clickDecremento(btn) {
         let data = this.getData(btn);
         data.Quantidade--;
         this.postQuantidade(data);
@@ -23,17 +23,24 @@ class Carrinho {
         var notaQtde = $(linhaDoItem).find('input').val();
 
         var data = {
-            Id: itemId,
+            Id = itemId,
             Quantidade = novaQtde,
         };
     }
 
     postQuantidade(data) {
+
+        let token = $('[name=__RequestVerificationToken]').val();
+
+        let headers = {};
+        headers['RequestVerificationToken'] = token;
+
         $.ajax({
             url: '/pedido/updatequantidade',
             type: 'POST',
             contentType: 'application/json',
-            data: JSON.stringify(data)
+            data: JSON.stringify(data), 
+            headers: headers
         }).done(function (response) {
             let itemPedido = response.itemPedido;
             let linhaDoItem = $('[item-id=' + itemPedido.id + ']')
